@@ -1,0 +1,14 @@
+{
+  "name": "problem4",
+  "version": "1.0.0",
+  "main": "app.ts",
+  "scripts": {
+    "start": "tsc && node dist/app.js"
+  },
+  "author": "Nghia Truong",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.5.2"
+  }
+}
