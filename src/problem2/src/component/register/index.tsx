@@ -1,7 +1,7 @@
 import { FormEvent, useState } from "react";
 import { useDispatch } from "react-redux";
 import "./styles.sass";
-import { registerUser, userLogin } from "../../auth/authActions";
+import { registerUser } from "../../auth/authActions";
 
 export default function Register() {
   const dispatch = useDispatch();

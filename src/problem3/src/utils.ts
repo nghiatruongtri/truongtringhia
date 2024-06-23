@@ -1,15 +1,13 @@
-import {useEffect} from "react";
+import { useEffect } from "react";
 
 export function useWalletBalances() {
-    useEffect(() => {
-        return () => {
-        };
-    });
+  useEffect(() => {
+    return () => {};
+  });
 }
 
 export function usePrices() {
-    useEffect(() => {
-        return () => {
-        };
-    });
+  useEffect(() => {
+    return () => {};
+  });
 }

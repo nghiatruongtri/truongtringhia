@@ -1,4 +1,5 @@
 # Run npm start to start the server.
+
 ## It must run along side with problem 2.
 
 JSON
@@ -61,7 +62,6 @@ GET /users/:id/avatar
 DELETE /users/:id/avatar
 
     Use current Bearer Token to delete user avatar.
-
 
 All route require user logged in along with Bearer Token.
 

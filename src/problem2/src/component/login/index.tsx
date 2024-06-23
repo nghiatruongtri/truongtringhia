@@ -11,7 +11,7 @@ export default function Login() {
   const calculate1 = async () => {
     try {
       const request = await fetch(
-        `https://api.exchangerate-api.com/v4/latest/USD`
+        `https://api.exchangerate-api.com/v4/latest/USD`,
       );
 
       const data = await request.json();

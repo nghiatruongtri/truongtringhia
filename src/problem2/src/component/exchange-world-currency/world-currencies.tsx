@@ -1,6 +1,5 @@
-import { useState, useRef } from "react";
+import { useRef, useState } from "react";
 import get from "lodash/get";
-import has from "lodash/has";
 
 function App() {
   const [inputAmount, setInputAmount] = useState<any>();
@@ -78,7 +77,7 @@ function App() {
   const getLatestExchange = async () => {
     try {
       const request = await fetch(
-        `https://api.exchangerate-api.com/v4/latest/${fromCurrencyRef.current.value}`
+        `https://api.exchangerate-api.com/v4/latest/${fromCurrencyRef.current.value}`,
       );
 
       const data = await request.json();
