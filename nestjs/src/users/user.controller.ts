@@ -21,9 +21,7 @@ export class UserController {
   }
 
   @Post('login')
-  async login(
-    @Body() credentials: CreateUserDto,
-  ): Promise<{ accessToken: string }> {
+  async login(@Body() credentials: CreateUserDto): Promise<{ token: string }> {
     const user = await this.userService.validateUser(
       credentials.email,
       credentials.password,
